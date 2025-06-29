@@ -1,3 +1,4 @@
+import CounterReducer from "./Components/CounterReducer";
 import Dashboard from "./Components/Dashboard";
 import Login from "./Components/Login";
 import Navbar from "./Components/Navbar";
@@ -8,11 +9,12 @@ const App = () => {
   return (
     <>
       {/* <PostList /> */}
-      <AuthProvider>
+      {/* <AuthProvider>
         <Navbar/>
         <Dashboard/>
         <Login/>
-      </AuthProvider>
+      </AuthProvider> */}
+      <CounterReducer/>
     </>
   );
 };
