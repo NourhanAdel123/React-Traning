@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+📘 React Hooks Training – Week 1
+This repository contains my practice and projects for learning React Hooks in Week 1 of my React journey.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🗓️ Weekly Progress
+✅ Day 1: React Basics
+Reviewed JSX, Props, and State.
 
-## Available Scripts
+Built a simple Counter App using useState.
 
-In the project directory, you can run:
+✅ Day 2: useEffect
+Learned how useEffect works after rendering.
 
-### `npm start`
+Built a small app that fetches posts from JSONPlaceholder API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Day 3: useContext
+Learned how to share data globally using React Context.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Created a Theme Toggle App using createContext, useContext, and Provider.
 
-### `npm test`
+✅ Day 4: useReducer
+Learned how to manage complex state with useReducer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Built a Counter App with actions: increment, decrement, reset.
 
-### `npm run build`
+Compared useState vs useReducer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ Day 5: Mini Project – Random Cat Generator 🐱
+Built a fun project that fetches random cat images from TheCatAPI.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Applied useState, useEffect, and useContext for theme toggling.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Used Context Provider to switch between light and dark modes.
 
-### `npm run eject`
+🛠️ Tech Used
+React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+JavaScript (ES6+)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React Hooks: useState, useEffect, useContext, useReducer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+JSONPlaceholder API, TheCatAPI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚀 Upcoming (Day 6+)
+Day 6: Styling with Tailwind CSS – Build a Login Page
 
-## Learn More
+Day 7: Make the Login Page Responsive for all devices
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🙋‍♀️ About Me
+I'm a React beginner practicing daily to improve my frontend skills.
+This repo documents my learning journey step by step with small, hands-on projects.
