@@ -11,24 +11,25 @@ import NotFound from "./Components/Day6 Routing/NotFound";
 import Profiles from "./Components/Day6 Routing/Profiles";
 import Profile from "./Components/Day6 Routing/Profile";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import router from "./Components/Day 7 RoutingExercise/router";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <NotFound />,
-  },
-  {
-    path: "/profiles",
-    element: <Profiles />,
-    children: [
-      {
-        path: "/profiles/:id",
-        element: <Profile />,
-      },
-    ],
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Home />,
+//     errorElement: <NotFound />,
+//   },
+//   {
+//     path: "/profiles",
+//     element: <Profiles />,
+//     children: [
+//       {
+//         path: "/profiles/:id",
+//         element: <Profile />,
+//       },
+//     ],
+//   },
+// ]);
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
     //   </ThemeProvider>
     // </>
     // <div className="text-3xl font-bold text-blue-500">Tailwind is working!</div>
+    // <RouterProvider router={router} />
     <RouterProvider router={router} />
   );
 };
