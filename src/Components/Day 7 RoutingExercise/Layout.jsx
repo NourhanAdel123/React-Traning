@@ -8,7 +8,9 @@ const Layout = () => {
         <NavLink to="/">Dashboard</NavLink>
         <NavLink to="/doctors">Doctors</NavLink>
         <NavLink to="/appointments">Appointments</NavLink>
+        <NavLink to="/profile">Profile</NavLink>
         <NavLink to="/settings">Settings</NavLink>
+        <NavLink to="/login">Login</NavLink>
       </aside>
       <main className="p-6 flex-1">
         <Outlet />
